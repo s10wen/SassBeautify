@@ -106,15 +106,15 @@ If you installed ruby and sass via a version manager tool like [RVM](https://rvm
 
 ### Compatibility with RVM/rbenv
 
-You need to specify the custom `PATH` and `GEM_PATH `values in your SassBeautify user settings.
+You need to specify the custom `PATH` and `GEM_PATH `values in your SassBeautify [user settings](#settings-overview).
 
 Follow the steps below:
 
 1. Open up terminal
 2. Run: `echo $PATH`
-3. Copy the *entire* `PATH` into the 'path' setting
+3. Copy the *entire* `PATH` into the 'path' setting, adding `"` before and after e.g. "/usr/local/bin"
 4. Run: `echo $GEM_PATH`
-5. Copy the *entire* `GEM_PATH` into the 'gemPath' setting
+5. Copy the *entire* `GEM_PATH` into the 'gemPath' setting, adding `"` before and after e.g. "/.rvm/gems/ruby-2.2.1@global"
 
 ### Compatibility with RubyInstaller
 
